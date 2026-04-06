@@ -27,6 +27,7 @@ cypress/screenshots/
 .env.*
 !.env.example
 *.local
+api
 
 # Logs
 logs/
