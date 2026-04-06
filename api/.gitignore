@@ -1,4 +1,11 @@
-node_modules
-# Keep environment variables out of version control
+node_modules/
+
+# Environment variables
 .env
-prisma/schema.prisma
+.env.*
+!.env.example
+
+# Build artifacts and logs
+dist/
+coverage/
+*.log
